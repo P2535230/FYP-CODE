@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QPixmap
 
 #presetting show event
+
 class show_events(QWindow):
     
     def showEvent(self, a0: QShowEvent) -> None:
